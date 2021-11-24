@@ -6,5 +6,5 @@ main :: IO ()
 main = do
   args <- getArgs
   putStrLn "input arguments:"
-  putStrLn (show args)
+  print args
   callCommand "dart -h"
